@@ -142,7 +142,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    font-size: 70px;
 
 }
 @keyframes animarDino{
@@ -373,7 +373,7 @@ function GanarPuntos() {
     score++;
     textoScore.innerText = score;
     if(score == 5){
-        gameVel = 0.5;
+        gameVel = 1.5;
         contenedor.classList.add("noche");
     }else if(score == 10) {
         gameVel = 2;
